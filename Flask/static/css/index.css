@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    width: 100px;
+    border: 2px solid #FF5F1F;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+body::after{
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3 ;
+    left: 0;
+}
+img { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+}
+section{
+   position: relative;
+    z-index: 10;
+}
+nav {
+    position: relative;
+    z-index: 15;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: #333;
+}
+
+section.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+section.container form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
